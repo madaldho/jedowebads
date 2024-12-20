@@ -1,0 +1,42 @@
+---
+import { Image } from "astro:assets";
+import scoreImage from "../assets/score 100.png";
+import seoImage from "../assets/seoalfayzoud.png";
+import weblambatImage from "../assets/bawah 3 detik.png";
+---
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  <!-- Score 100 -->
+  <section class="bg-white p-4 rounded shadow">
+    <Image
+      src={scoreImage}
+      alt="Score 100"
+      width={800}
+      height={600}
+      format="webp"
+      class="rounded"
+    />
+  </section>
+
+  <section class="bg-white p-4 rounded shadow">
+    <Image
+      src={weblambatImage}
+      alt="Web Lambat"
+      width={800}
+      height={450}
+      format="webp"
+      class="rounded"
+    />
+  </section>
+
+  <section class="bg-white p-4 rounded shadow">
+    <Image
+      src={seoImage}
+      alt="SEO Alfayzoud"
+      width={600}
+      height={400}
+      format="webp"
+      class="rounded"
+    />
+  </section>
+</div>

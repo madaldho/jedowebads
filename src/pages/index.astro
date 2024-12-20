@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import SmoothScroll from "../components/SmoothScroll.astro";
+import Header from "../components/Header";
+import Problem from "../components/problem";
+import Trust from "../components/Trust";
+import Fitur from "../components/fitur";
+import Testimoni from "../components/testimoni";
+import CTASection from "../components/CTASection";
+import Iconcard from "../components/iconcard.astro";
+
+import FAQ from "../components/FAQ";
+
+const titlemeta =
+  "JedoWEB - Jasa Pembuatan Website Cepat & Profesional";
+const descriptionmeta =
+  "Jasa pembuatan website cepat, responsif, dan modern. Gratis domain & hosting 1 tahun. Tingkatkan kecepatan dan performa website Anda bersama JedoWEB!";
+---
+
+<BaseLayout titlemeta={titlemeta} descriptionmeta={descriptionmeta}>
+  <section>
+    <SmoothScroll/>
+    <Header client:load />
+    <Problem />
+    <Trust client:load/>
+    <Fitur/>
+    <Iconcard/>
+    <Testimoni/>
+    <CTASection client:load/>
+
+    <FAQ client:load />
+  </section>
+</BaseLayout>
