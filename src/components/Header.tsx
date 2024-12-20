@@ -16,7 +16,7 @@ const Header = () => {
           <motion.img 
           src="/herojedoweb1.webp" 
           alt="hero jedo web 1" loading='eager'
-          className="w-4/6 flex mx-auto py-10 rounded-3xl"
+          className="md:w-4/6 w-auto flex mx-auto py-10 rounded-3xl"
           animate={{ y: [0, -10, 0] }} // Gerakan naik-turun
           transition={{
             duration: 3, // Durasi satu siklus animasi
