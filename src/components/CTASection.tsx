@@ -54,7 +54,7 @@ export default function CTASection() {
           <h2 className="text-4xl font-bold text-blue-800 mb-6">Siap Tingkatkan Website Anda Sekarang?</h2>
           <div className="bg-white rounded-lg shadow-xl p-8 max-w-3xl mx-auto">
             <h3 className="text-3xl font-bold text-gray-800 mb-6">
-              Harga Spesial Hanya <span className="text-green-500">Rp600.000</span>!
+              Harga Spesial Hanya <span className="text-green-500">Rp660.000</span>!
             </h3>
             <div className="mb-6">
               <p className="text-2xl text-gray-500 line-through">Rp1.200.000</p>
@@ -93,7 +93,7 @@ export default function CTASection() {
           <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-lg shadow-xl p-8 max-w-3xl mx-auto">
            
             <div className="text-center text-2xl font-bold text-yellow-800">
-              Penawaran Spesial: Pesan sekarang dan dapatkan semuanya hanya dengan <span className="text-green-600">Rp600.000!</span>
+              Penawaran Spesial: Pesan sekarang dan dapatkan semuanya hanya dengan <span className="text-green-600">Rp660.000!</span>
             </div>
           </div>
         </section>
