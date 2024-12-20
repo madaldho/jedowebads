@@ -109,7 +109,7 @@ export default function CTASection() {
             <span>Jangan Tunda Lagi! Penawaran ini berakhir dalam:</span>
           </div>
           <div className="text-5xl font-extrabold text-red-600 mt-4 bg-yellow-100 py-4 px-8 rounded-xl inline-block shadow-lg">
-            {`${timeLeft.days}d ${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`}
+            {`${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`}
           </div>
         </section>
 
