@@ -75,10 +75,10 @@ export default function CTASection() {
                 <span>Desain profesional dengan coding berkualitas tinggi.</span>
               </li>
             </ul>
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-xl transition duration-300 ease-in-out transform hover:scale-105 flex items-center justify-center mx-auto">
+            <a href='https://wa.me/6282128582738?text=Hallo%20Jedo%20Web,%20Saya%20mau%20Buat%20Websitenya%20dong,%20Terima%20Kasih' className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-xl transition duration-300 ease-in-out transform hover:scale-105 flex items-center justify-center mx-auto">
               Pesan Sekarang dan Wujudkan Website Impian Anda
               <ArrowRight className="ml-2" />
-            </button>
+            </a>
           </div>
           <div className="mt-8 text-xl font-semibold text-red-600 flex items-center justify-center">
             <Clock className="mr-2" />
