@@ -57,11 +57,11 @@ export default function CTASection() {
           <div className="bg-white rounded-lg shadow-xl p-8 max-w-3xl mx-auto">
             <h3 className="text-3xl font-bold text-gray-800 mb-6">
               Harga Spesial Hanya{" "}
-              <span className="text-green-600">Rp660.000</span>!
+              <span className="text-green-700">Rp660.000</span>!
             </h3>
             <div className="mb-6">
               <p className="text-2xl text-gray-500 line-through">Rp1.200.000</p>
-              <p className="text-5xl font-extrabold text-red-600">Rp660.000</p>
+              <p className="text-5xl font-extrabold text-red-700">Rp660.000</p>
               <p className="text-sm text-gray-700 mt-2">
                 Diskon besar untuk waktu terbatas!
               </p>
@@ -84,7 +84,7 @@ export default function CTASection() {
             </ul>
             <motion.a
       href="https://wa.me/6282128582738?text=Hallo%20Jedo%20Web,%20Saya%20mau%20Buat%20Websitenya%20dong,%20Terima%20Kasih"
-      className="bg-red-600 text-white font-bold py-4 px-8 rounded-full text-xl flex items-center justify-center mx-auto"
+      className="bg-red-700 text-white font-bold py-4 px-8 rounded-full text-xl flex items-center justify-center mx-auto"
       whileHover={{
         scale: 1.1,
         backgroundColor: "#dc2626", // Darker red on hover
@@ -99,11 +99,11 @@ export default function CTASection() {
       <ArrowRight className="ml-2" />
     </motion.a>
           </div>
-          <div className="mt-8 text-xl font-semibold text-red-600 flex items-center justify-center">
+          <div className="mt-8 text-xl font-semibold text-red-700 flex items-center justify-center">
             <Clock className="mr-2" />
             <span>Jangan Tunda Lagi! Penawaran ini berakhir dalam:</span>
           </div>
-          <div className="text-5xl font-extrabold text-red-600 mt-4 bg-yellow-100 py-4 px-8 rounded-xl inline-block shadow-lg">
+          <div className="text-5xl font-extrabold text-red-700 mt-4 bg-yellow-100 py-4 px-8 rounded-xl inline-block shadow-lg">
             {`${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`}
           </div>
         </section>
@@ -112,7 +112,7 @@ export default function CTASection() {
           <div className="bg-gradient-to-r from-yellow-100 to-yellow-200 rounded-lg shadow-xl p-8 max-w-3xl mx-auto">
             <div className="text-center text-2xl font-bold text-yellow-800">
               Penawaran Spesial: Pesan sekarang dan dapatkan semuanya hanya
-              dengan <span className="text-green-600">Rp660.000!</span>
+              dengan <span className="text-green-700">Rp660.000!</span>
             </div>
           </div>
         </section>
