@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import SmoothScroll from "../components/SmoothScroll.astro";
-import Header from "../components/Header";
-import Problem from "../components/problem";
+import Header from "../components/Header.astro";
+import Problem from "../components/problem.astro";
 import Trust from "../components/Trust";
 import Fitur from "../components/fitur";
 import Testimoni from "../components/testimoni";
@@ -10,6 +10,7 @@ import CTASection from "../components/CTASection";
 import Iconcard from "../components/iconcard.astro";
 
 import FAQ from "../components/FAQ";
+import CTA from "../components/CTA.astro";
 
 const titlemeta =
   "JedoWEB - Jasa Pembuatan Website Cepat & Profesional";
@@ -20,12 +21,13 @@ const descriptionmeta =
 <BaseLayout titlemeta={titlemeta} descriptionmeta={descriptionmeta}>
   <section>
     <SmoothScroll/>
-    <Header client:load />
+    <Header />
     <Problem />
     <Trust client:load/>
     <Fitur/>
     <Iconcard/>
     <Testimoni/>
+    <CTA/>
     <CTASection client:load/>
 
     <FAQ client:load />

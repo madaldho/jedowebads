@@ -1,0 +1,79 @@
+---
+import { ArrowRight, AlertTriangle, XCircle } from 'lucide-astro';
+import { Image } from 'astro:assets';
+import heroproblem from '../assets/weblambat.webp';
+---
+
+<section class="py-20 px-4 text-center bg-gray-100">
+  <!-- Optimasi Gambar -->
+  <div class="flex justify-center">
+    <Image
+      src={heroproblem}
+      alt="hero Jedo Web 1"
+      width={800} 
+      height={320}
+      format="webp"
+      quality={75}
+      loading="lazy"
+      class=" m-auto flex "
+    />
+  </div>
+
+  <div class="container mx-auto">
+    <h2 class="text-3xl md:text-4xl font-bold mb-8">
+      Apakah Website Anda <span class="text-red-500">Lambat?</span>
+    </h2>
+    <div class="grid md:grid-cols-3 gap-8 text-left max-w-4xl mx-auto">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="text-xl font-semibold mb-2">Pelanggan Pergi</div>
+        <p class="text-gray-600">
+          <span class="text-red-700 font-bold">83% Pengguna</span> meninggalkan website yang butuh lebih dari 3 detik untuk dimuat.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="text-xl font-semibold mb-2">Pendapatan Menurun</div>
+        <p class="text-gray-600">
+          Website lambat membuat pelanggan frustrasi dan mengurangi pendapatan bisnis Anda.
+        </p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <div class="text-xl font-semibold mb-2">SEO Terganggu</div>
+        <p class="text-gray-600">
+          Google lebih menyukai website cepat, artinya SEO Anda akan terganggu jika website lambat.
+        </p>
+      </div>
+    </div>
+
+    <div class="md:px-40 py-14">
+      <div class="bg-red-50 rounded-lg p-6 mb-8 shadow-xl">
+        <h2 class="text-2xl font-bold text-red-800 mb-4 flex items-center">
+          <AlertTriangle class="mr-2" /> Kenyataan Pahit
+        </h2>
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <XCircle class="text-red-500 mr-2 flex-shrink-0 mt-1" />
+            <p class="text-gray-700">Website lambat bisa menghancurkan reputasi online Anda.</p>
+          </li>
+          <li class="flex items-start">
+            <XCircle class="text-red-500 mr-2 flex-shrink-0 mt-1" />
+            <p class="text-gray-700">Google lebih menyukai website cepat, artinya SEO Anda akan terganggu jika website lambat.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-yellow-50 rounded-lg p-6 mb-3 shadow-xl">
+        <h2 class="text-2xl font-bold text-yellow-800 mb-4 flex items-center">Bayangkan Jika:</h2>
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <ArrowRight class="text-yellow-500 mr-2 flex-shrink-0 mt-1" />
+            <p class="text-gray-700">Pengunjung Anda dengan mudah meninggalkan website Anda untuk pesaing.</p>
+          </li>
+          <li class="flex items-start">
+            <ArrowRight class="text-yellow-500 mr-2 flex-shrink-0 mt-1" />
+            <p class="text-gray-700">Anda kehilangan potensi penjualan setiap detik karena website yang tidak optimal.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

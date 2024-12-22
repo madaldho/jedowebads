@@ -1,0 +1,17 @@
+---
+import { Image } from "astro:assets";
+import herocta from "../assets/herofast.webp";
+---
+
+<div class="bg-blue-50 flex justify-center">
+  <Image
+    src={herocta}
+    alt="hero Jedo Web 1"
+    width={800}
+    height={320}
+    format="webp"
+    quality={75}
+    loading="lazy"
+    class="m-auto flex"
+  />
+</div>

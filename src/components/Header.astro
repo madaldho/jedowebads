@@ -1,0 +1,45 @@
+---
+import { motion } from "framer-motion";
+import { Image } from 'astro:assets';
+import herojedo from "../assets/herojedoweb1.webp";
+---
+
+<header class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20 text-center relative overflow-hidden">
+  <div class="container mx-auto px-4 relative z-10">
+    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+      Website Super Cepat,<br />Bisnis Anda <span class="text-yellow-300">Melesat!</span>
+    </h1>
+    <p class="text-xl mb-8 max-w-2xl mx-auto">
+      Hindari kehilangan pelanggan karena website lambat. Tingkatkan kecepatan, tingkatkan keuntungan!
+    </p>
+    <a href="#Testimoni" class="bg-yellow-400 text-gray-800 font-bold py-3 px-8 rounded-full text-lg hover:bg-yellow-300 transition duration-300 shadow-lg">
+      Pesan Sekarang
+    </a>
+      <Image
+        src={herojedo}
+        alt="hero jedo web 1"
+        class="rounded-3xl m-auto flex"
+        format="webp"
+        quality={75}
+        width={800} 
+        height={600} 
+        loading="eager"
+      />
+  
+  </div>
+  <div class="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900 opacity-20"></div>
+
+<style>
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+</style>
+</header>

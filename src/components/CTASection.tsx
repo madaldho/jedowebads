@@ -47,13 +47,8 @@ export default function CTASection() {
   }, []);
 
   return (
-    <div className="bg-gradient-to-br from-blue-50 to-blue-100 py-16">
-      <img
-        loading="lazy"
-        className="flex m-auto w-auto h-1/6"
-        src="/herofast.webp"
-        alt="herojedoweb"
-      />
+    <div className="bg-blue-50 py-16">
+      
       <div className="container mx-auto px-4">
         <section className="mb-16 text-center">
           <h2 className="text-4xl font-bold text-blue-800 mb-6">
@@ -62,7 +57,7 @@ export default function CTASection() {
           <div className="bg-white rounded-lg shadow-xl p-8 max-w-3xl mx-auto">
             <h3 className="text-3xl font-bold text-gray-800 mb-6">
               Harga Spesial Hanya{" "}
-              <span className="text-green-500">Rp660.000</span>!
+              <span className="text-green-600">Rp660.000</span>!
             </h3>
             <div className="mb-6">
               <p className="text-2xl text-gray-500 line-through">Rp1.200.000</p>
